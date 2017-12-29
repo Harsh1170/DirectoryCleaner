@@ -1,1 +1,2 @@
 # DirectoryCleaner
+This is a simple code to arrange files according to their extensions. It moves all the files in the root directory to the target directory and arranges them in folders for each file type. It uses OS module for directory traversals and SHUTIL module's copy function. Currently it doesn't shows progress and it takes a lot of time for bigger files but it doesn't crashes. If it stucks, wait for a few minutes. I'm still figuring out how to show progress for copying the files.
